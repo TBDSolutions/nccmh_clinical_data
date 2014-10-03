@@ -2,7 +2,7 @@
 title       : Uses of Data
 subtitle    : in Clinical Quality Measurement
 author      : Joshua Hagedorn
-job         : tbd
+job         : tbdSolutions
 #logo        : tbd-icon-small.png
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
