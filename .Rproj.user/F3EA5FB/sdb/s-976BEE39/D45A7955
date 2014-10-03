@@ -1,12 +1,12 @@
 {
     "contents" : "library(devtools)\ninstall_github('ramnathv/slidify')\ninstall_github('ramnathv/slidifyLibraries')\nlibrary(slidify)\nlibrary(rCharts)\n\n\n\n# Create and name project (here, \"first_deck\")\nauthor(\"nccmh_clinical_data\")\n\n# Create an R project in the existing deck\n\nslidify(\"index.Rmd\")\n\npublish(user = \"j-hagedorn\", repo = \"clinical_data_use\")\npublish('/nccmh_clinical_data', host = 'dropbox')\n\ngetwd()\n\n#######\n# SLIDE WITH TWO COLUMNS\n\n--- &twocol w1:50% w2:50%\n  ## Title \n  ***left\n### Subtitle 1\n>- \n  >- \n  ***right\n### Subtitle 1\n>- \n  >- \n  \n  #######\n# QUOTE\n\n--- quote\n<p><q>Here is an <span class = 'red'>important</span> quote.</q></p>\n  \n  #######\n# PICTURE\n\n<p align=\"center\"><img src=\"img/stuplot25.png\" height=\"560\" width=\"750\"></p>\n  \n  #######\n# LINKS\n\nA [linked phrase][id]. \n\nAt the bottom of the document:\n  [id]: http://example.com/ \"Title\"\n\n\n#######\n# TABLE\n\nAesthetic |      Discrete              |  Continuous\n----------|  ------------------------- | -------------------------------\n  Color     |  Disparate colors          |  Sequential or divergent colors\nSize      |  Unique size for each value|   mapping to radius of value\nShape     |  A shape for each value    |   **does not make sense**\n  \n  \n######\n# Embed website\n  <iframe src = 'https://icdp.healthnetonline.com/mshn-analytics/Home' height='600px></iframe>\n  ",
     "created" : 1412301166850.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "2779579850",
     "id" : "D45A7955",
-    "lastKnownWriteTime" : 1412300145,
+    "lastKnownWriteTime" : 1412303065,
     "path" : "~/GitHub/presenting/slidify_recipes.R",
     "project_path" : null,
     "properties" : {

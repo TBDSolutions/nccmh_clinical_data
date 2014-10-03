@@ -7,9 +7,6 @@ job         : tbd
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : zenburn       #      
-url:
-  lib: ../../libraries
-  assets: ../../assets
 widgets     : []            # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: libraries/nvd3}
 mode        : selfcontained # {standalone, draft}
