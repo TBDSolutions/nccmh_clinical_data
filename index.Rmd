@@ -1,0 +1,181 @@
+---
+title       : Uses of Data
+subtitle    : in Clinical Quality Measurement
+author      : Joshua Hagedorn
+job         : tbd
+#logo        : tbd-icon-small.png
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : prettify  # {highlight.js, prettify, highlight}
+hitheme     : zenburn       #      
+url:
+  lib: ../../libraries
+  assets: ../../assets
+widgets     : []            # {mathjax, quiz, bootstrap}
+ext_widgets : {rCharts: libraries/nvd3}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+```{r opts_chunk$set(echo=F, message=F , comment=NA)}
+```
+
+## Context: Resources
+(- $) (+ #) -> (- Redundancy) (+ Value %)
+
+>- Less money
+>- More people
+>- Reduce redundancy
+>- Increase value
+
+--- .class #id 
+
+## Context: Costs in MSHN Region
+
+```{r nvd3plot, results = 'asis', comment = NA, message = F, echo = F}
+library(rCharts)
+
+all_cost <- read.csv("C:\\Users\\Josh\\Documents\\GitHub\\presenting\\nccmh_clinical_data\\assets\\all_cost.csv")
+
+allcost <- nPlot(CostInMillions ~ FY, group = "ServiceType", data = all_cost,type = 'stackedAreaChart', id = 'chart')
+allcost$xAxis(axisLabel = 'Year', width = 62)
+allcost$yAxis(axisLabel = 'Total cost, in millions', width = 62)
+#allcost$addControls("y", value = "CostInMillions", values = c("SumOfCost","Cost1kSvd"))
+allcost$show('inline')
+```
+
+*Data from* [Open404](https://github.com/j-hagedorn/open404)
+
+--- .class #id 
+
+## Context: Variation...
+
+```{r nvd3plot2, results = 'asis', comment = NA, message = F, echo = F}
+library(rCharts)
+
+bar_allhosp <- read.csv("C:\\Users\\Josh\\Documents\\GitHub\\presenting\\nccmh_clinical_data\\assets\\bar_allhosp.csv")
+
+h1 <- nPlot(CostPerUnit ~ CMHSP, group = "FirstofService.Description", data = bar_allhosp, type = "multiBarChart", id = "Cost per unit")
+h1$xAxis(axisLabel = 'CMHSP', width = 62)
+h1$yAxis(axisLabel = 'Cost per day, 2013', width = 62)
+h1$chart(color = c('#bdc9e1', '#67a9cf', '#02818a'))
+h1$show('inline')
+```
+
+*Data from* [Open404](https://github.com/j-hagedorn/open404)
+
+--- .class #id 
+
+## Context: Integration
+(- Redundancy) (- Stigma) (+ Science) -> Integration
+
+>- Redundant systems, admin functions
+
+>- Less stigma
+
+>- Innovations in science (genomics,upstream factors,&c.)
+
+--- .class #id 
+
+## Remaking the Public Behavioral Health System
+
+>- Open Knowledge
+
+>- Public System Entrepeneurs
+
+>- Designed to address "wicked" problems
+
+--- .class #id 
+
+## "Wicked" Problems: Characteristics
+(*term borrowed from design thinking)
+
+1. No universal definition
+2. Improve, not solve
+3. Many causes
+4. Interconnected
+5. No single measure of success
+
+--- .class #id 
+
+## ONLY THE DIFFICULT INSPIRES THE NOBLE-HEARTED 
+
+Can any one person fathom this situation?
+
+>- No.   Enter data.
+
+>- Not a "single source of truth," but a shared situation.
+
+*** =pnotes
+Title quote by S. Kierkegaard
+System 1 v System 2 
+We overestimate the effects of our actions
+In unpredictable situations, our inconsistency wrecks validity
+
+--- .class #id 
+
+## Making it useful
+
+What information would you need to make you change the way you live?
+
+>- What's the issue? (Measures, Analysis)
+>- What to do? (Levers)
+>- What's success? (Target)
+
+--- .class #id 
+
+## FACT IS THE SWEETEST DREAM THAT LABOR KNOWS
+
+* Stigma: When do labels become characteristics?
+
+* Self-tracking as empowerment
+([Quantified Self](http://quantifiedself.com/))
+
+* Self-monitoring helps (obesity, bipolar)
+
+* Use of data in a clinical context
+([Boswell, et al, 2013](http://www.scottdmiller.com/wp-content/uploads/2014/06/Implementing-routine-outcome-monitoring-in-clinical-practice-Benefits-challenges-and-solutions-Psychotherapy-Research_Boswell-Kraus-Mi.pdf))
+
+* Frequent, consistent 
+([Peterson, et al. 2014](http://onlinelibrary.wiley.com/doi/10.1002/oby.20807/full))
+
+--- .class #id 
+
+## To Do List:
+
+* Key Questions
+* Identify Levers
+* Build Measures
+* Get Data
+* Analyze Data
+* Communication
+* Build Data Literacy
+* Integrate into Process
+* Use Data
+
+--- .class #id 
+
+## Ask Real Questions
+
+Based on contextual themes:
+* Quality
+* Cost / Resource Use
+* Integration / Coordination
+
+--- .class #id
+
+## Data Lab
+
+--- .class #id
+
+## Homework
+1. Identify data points currently measured which are relevant for you in your role.
+2. Identify 2 ways that you could usefully integrate data into your clinical practice (e.g. supervision, pre-PCP meetings, etc.)
+
+--- .class #id
+
+<style> 
+.title-slide {
+  background-color: #ffffff; /* #EDE0CF; ; #CA9F9D*/
+  /* background-image:url(http://goo.gl/EpXln); */
+} 
+</style>

@@ -1,0 +1,97 @@
+"","FY","ServiceType","CostInMillions","Cost1kSvd"
+"1",2006,"Care Coordination",42.613862,5353500.25
+"2",2006,"Crisis and Respite",6.931051,870735.05
+"3",2006,"Employment Services",30.669278,3852924.37
+"4",2006,"Equipment",1.036978,130273.62
+"5",2006,"Home & Community Based Services",130.055799,16338668.22
+"6",2006,"Hospital-based Services",30.287516,3804964.32
+"7",2006,"Medication",9.74048,1223678.39
+"8",2006,"Other",1.247035,156662.69
+"9",2006,"Outpatient Treatment",12.323178,1548137.94
+"10",2006,"Physical Health Services",8.868717,1114160.43
+"11",2006,"Screening & Assessment",9.032421,1134726.26
+"12",2006,"Transportation",2.321038,291587.69
+"13",2007,"Care Coordination",46.87062,5973062.32
+"14",2007,"Crisis and Respite",8.850937,1127938.96
+"15",2007,"Employment Services",31.269296,3984872.69
+"16",2007,"Equipment",0.391234,49857.78
+"17",2007,"Home & Community Based Services",138.880188,17698507.46
+"18",2007,"Hospital-based Services",27.125668,3456820.19
+"19",2007,"Medication",8.595706,1095413.02
+"20",2007,"Other",2.871638,365953.61
+"21",2007,"Outpatient Treatment",11.864475,1511975.91
+"22",2007,"Physical Health Services",8.589161,1094578.95
+"23",2007,"Screening & Assessment",9.531487,1214666.37
+"24",2007,"Transportation",1.056393,134623.81
+"25",2008,"Care Coordination",49.248123,6379290.54
+"26",2008,"Crisis and Respite",7.590687,983249.61
+"27",2008,"Employment Services",39.490188,5115309.33
+"28",2008,"Equipment",0.940484,121824.35
+"29",2008,"Home & Community Based Services",137.356028,17792231.61
+"30",2008,"Hospital-based Services",27.022979,3500385.88
+"31",2008,"Medication",8.679773,1124322.93
+"32",2008,"Other",0.392004,50777.72
+"33",2008,"Outpatient Treatment",12.003843,1554901.94
+"34",2008,"Physical Health Services",9.953256,1289281.87
+"35",2008,"Screening & Assessment",9.333895,1209053.76
+"36",2008,"Transportation",2.241453,290343.65
+"37",2009,"Care Coordination",49.210999,6149837.42
+"38",2009,"Crisis and Respite",8.149038,1018375.16
+"39",2009,"Employment Services",30.183907,3772045.36
+"40",2009,"Equipment",1.083057,135348.29
+"41",2009,"Home & Community Based Services",156.685168,19580750.81
+"42",2009,"Hospital-based Services",27.384664,3422227.44
+"43",2009,"Medication",9.961766,1244909.52
+"44",2009,"Other",0.554721,69322.79
+"45",2009,"Outpatient Treatment",13.971857,1746045.61
+"46",2009,"Physical Health Services",8.846238,1105503.37
+"47",2009,"Screening & Assessment",9.576346,1196744.06
+"48",2009,"Transportation",1.727071,215829.92
+"49",2010,"Care Coordination",50.757631,6373384.1
+"50",2010,"Crisis and Respite",8.088793,1015669.64
+"51",2010,"Employment Services",32.54015,4085905.32
+"52",2010,"Equipment",1.126856,141493.72
+"53",2010,"Home & Community Based Services",157.385646,19762135.36
+"54",2010,"Hospital-based Services",27.136653,3407414.99
+"55",2010,"Medication",11.888229,1492745.98
+"56",2010,"Other",0.606968,76213.96
+"57",2010,"Outpatient Treatment",15.84638,1989751.38
+"58",2010,"Physical Health Services",14.702819,1846160.1
+"59",2010,"Screening & Assessment",9.660163,1212978.78
+"60",2010,"Transportation",1.203583,151127.95
+"61",2011,"Care Coordination",54.888127,6934697.03
+"62",2011,"Crisis and Respite",7.403879,935423.75
+"63",2011,"Employment Services",37.750589,4769499.56
+"64",2011,"Equipment",1.054661,133248.39
+"65",2011,"Home & Community Based Services",175.185575,22133363.87
+"66",2011,"Hospital-based Services",30.128484,3806504.61
+"67",2011,"Medication",12.005911,1516855.46
+"68",2011,"Other",0.286611,48993.33
+"69",2011,"Outpatient Treatment",16.445063,2077708.53
+"70",2011,"Physical Health Services",13.057021,1649655.21
+"71",2011,"Screening & Assessment",9.860682,1245822.11
+"72",2011,"Transportation",1.484749,187586.73
+"73",2012,"Care Coordination",60.340533,7605310.44
+"74",2012,"Crisis and Respite",7.637112,962580.29
+"75",2012,"Employment Services",41.298085,5205203.55
+"76",2012,"Equipment",0.829144,104505.17
+"77",2012,"Home & Community Based Services",175.699641,22145152.63
+"78",2012,"Hospital-based Services",29.670014,3739603.48
+"79",2012,"Medication",16.318993,2056843.08
+"80",2012,"Other",0.279391,42851.38
+"81",2012,"Outpatient Treatment",18.95636,2389256.37
+"82",2012,"Physical Health Services",11.806161,1488046.51
+"83",2012,"Screening & Assessment",13.291204,1675221.07
+"84",2012,"Transportation",2.71721,342476.68
+"85",2013,"Care Coordination",62.491678,7584862
+"86",2013,"Crisis and Respite",6.349919,770714.77
+"87",2013,"Employment Services",38.932099,4725342.76
+"88",2013,"Equipment",1.144716,138938.71
+"89",2013,"Home & Community Based Services",182.226429,22117542.06
+"90",2013,"Hospital-based Services",30.654286,3720631.87
+"91",2013,"Medication",7.625619,925551.52
+"92",2013,"Other",0.882651,107130.84
+"93",2013,"Outpatient Treatment",22.203813,2694964.56
+"94",2013,"Physical Health Services",23.318153,2830216.41
+"95",2013,"Screening & Assessment",14.15695,1718284.99
+"96",2013,"Transportation",2.707066,328567.3
